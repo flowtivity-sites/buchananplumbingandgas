@@ -1,0 +1,142 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-primary: #1B365D;
+  --color-accent: #FF6B35;
+  --color-surface: #F8F9FA;
+  --color-text: #2C3E50;
+  --color-text-muted: #6C757D;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+body {
+  font-family: var(--font-work-sans), sans-serif;
+  color: var(--color-text);
+  background-color: var(--color-surface);
+}
+
+/* Grain texture overlay */
+.grain-overlay {
+  position: relative;
+}
+
+.grain-overlay::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+  opacity: 0.03;
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* Staggered reveal animations */
+.reveal {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeUp 0.6s ease forwards;
+}
+
+.reveal-delay-1 { animation-delay: 0.1s; }
+.reveal-delay-2 { animation-delay: 0.2s; }
+.reveal-delay-3 { animation-delay: 0.3s; }
+.reveal-delay-4 { animation-delay: 0.4s; }
+
+@keyframes fadeUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Bold shadow effect */
+.bold-shadow {
+  box-shadow: 8px 8px 0 var(--color-primary);
+}
+
+.bold-shadow-accent {
+  box-shadow: 8px 8px 0 var(--color-accent);
+}
+
+/* Offset element effect */
+.offset-border {
+  position: relative;
+}
+
+.offset-border::before {
+  content: '';
+  position: absolute;
+  inset: 8px -8px -8px 8px;
+  border: 3px solid var(--color-accent);
+  z-index: -1;
+}
+
+/* Button styles */
+.btn-primary {
+  @apply inline-flex items-center justify-center px-8 py-4 font-display text-lg tracking-wider uppercase bg-accent text-white transition-all duration-300;
+}
+
+.btn-primary:hover {
+  @apply bg-primary shadow-lg transform -translate-y-1;
+}
+
+.btn-secondary {
+  @apply inline-flex items-center justify-center px-8 py-4 font-display text-lg tracking-wider uppercase border-2 border-primary text-primary bg-transparent transition-all duration-300;
+}
+
+.btn-secondary:hover {
+  @apply bg-primary text-white;
+}
+
+/* Card hover effect */
+.card-hover {
+  @apply transition-all duration-300;
+}
+
+.card-hover:hover {
+  @apply transform -translate-y-2;
+  box-shadow: 12px 12px 0 var(--color-accent);
+}
+
+/* Decorative lines */
+.decorative-line {
+  width: 80px;
+  height: 4px;
+  background: linear-gradient(90deg, var(--color-accent) 0%, var(--color-primary) 100%);
+}
+
+/* Section padding */
+.section-padding {
+  @apply py-16 md:py-24 lg:py-32;
+}
+
+/* Image hover zoom */
+.img-zoom {
+  @apply overflow-hidden;
+}
+
+.img-zoom img {
+  @apply transition-transform duration-500;
+}
+
+.img-zoom:hover img {
+  @apply scale-110;
+}

@@ -4,3 +4,7 @@ dist/
 .env
 .dev.vars
 .DS_Store
+.next/
+out/
+*.tsbuildinfo
+next-env.d.ts
