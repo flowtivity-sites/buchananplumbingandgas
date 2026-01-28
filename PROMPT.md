@@ -10,39 +10,39 @@ npm run dev
 ```
 
 ## Design Direction
-- **Aesthetic:** Power Service
-- **Display Font:** Space Grotesk
-- **Body Font:** Inter
-- **Primary Color:** #374151
-- **Accent Color:** #3b82f6
-- **Effects:** bold shadows, offset elements, micro-animations, geometric shapes, high contrast
+- **Aesthetic:** Aussie Tradesman Pro
+- **Display Font:** Bebas Neue
+- **Body Font:** Work Sans
+- **Primary Color:** #1B365D
+- **Accent Color:** #FF6B35
+- **Effects:** geometric shapes, bold shadows, grain texture, decorative lines
 
 ## Design Variations Available
 This site has 4 unique design variations to choose from. The recommended variation is applied below, but you can switch by updating `selectedVariation` in prd.json.
 
-### Industrial Authority (variation-1) - RECOMMENDED
-- **Rationale:** This design emphasizes Buchanan Plumbing & Gas's expertise in both residential and commercial work with strong industrial elements. The navy and orange palette conveys trust and energy, perfect for a family business that's been serving the Tweed Valley since 2010.
-- **Palette:** Primary #1e3a5f, Accent #ff6b35
+### Aussie Tradesman Pro (variation-1) - RECOMMENDED
+- **Rationale:** This design captures the rugged, reliable nature of Buchanan Plumbing & Gas with industrial navy tones that reflect their technical expertise and trustworthy family-run heritage. The bold typography and utilitarian aesthetic perfectly suits their comprehensive gas and plumbing services across the rural Tweed Valley region.
+- **Palette:** Primary #1B365D, Accent #FF6B35
 - **Fonts:** Bebas Neue / Work Sans
-- **Mood:** authoritative, industrial, trustworthy, modern
+- **Mood:** industrial, trustworthy, professional, robust
 
-### Utility Pro (variation-2)
-- **Rationale:** Designed to reflect Buchanan's comprehensive service range from septic tanks to gas installations, this variation uses a utility-inspired color scheme and bold typography that commands attention while maintaining professionalism for their diverse clientele.
-- **Palette:** Primary #2d4739, Accent #f1c40f
-- **Fonts:** Archivo Black / DM Sans
-- **Mood:** efficient, systematic, professional, reliable
+### Modern Utility (variation-2)
+- **Rationale:** Reflecting Buchanan's commitment to 'modern plumbing solutions,' this sleek charcoal and teal design emphasizes their innovative approach while maintaining the technical credibility essential for gas fitting and commercial services. The contemporary aesthetic appeals to both residential and commercial clients in the growing Murwillumbah area.
+- **Palette:** Primary #2C3639, Accent #17A2B8
+- **Fonts:** Space Grotesk / DM Sans
+- **Mood:** modern, sleek, technical, innovative
 
-### Coastal Craftsman (variation-3)
-- **Rationale:** Reflecting Buchanan's location in Stokers Siding and service to the coastal Tweed Valley region, this design combines slate and teal colors that echo the local landscape while maintaining the sturdy, dependable feel appropriate for a trades business.
-- **Palette:** Primary #475569, Accent #0d9488
+### Country Craftsman (variation-3)
+- **Rationale:** Designed for Buchanan's rural Stokers Siding location and family-operated values, this warm forest green and yellow palette evokes the natural Tweed Valley landscape while maintaining professional credibility. The robust typography reflects their hands-on approach to septic tanks, renovations, and rural property services.
+- **Palette:** Primary #2D4A22, Accent #F4D03F
 - **Fonts:** Oswald / Source Sans Pro
-- **Mood:** coastal, crafted, established, regional
+- **Mood:** natural, reliable, family-friendly, grounded
 
-### Power Service (variation-4)
-- **Rationale:** This high-energy design reflects Buchanan's promise of prompt service and modern solutions. The charcoal and electric blue combination creates a contemporary feel that appeals to both traditional plumbing needs and modern gas appliance installations.
-- **Palette:** Primary #374151, Accent #3b82f6
-- **Fonts:** Space Grotesk / Inter
-- **Mood:** dynamic, contemporary, energetic, tech-forward
+### Industrial Edge (variation-4)
+- **Rationale:** This bold slate and copper design emphasizes Buchanan's comprehensive commercial services and technical expertise in gas leak detection and appliance repairs. The high-contrast aesthetic projects confidence and capability, perfect for their diverse client base from sporting venues to real estate agents across the region.
+- **Palette:** Primary #34495E, Accent #E67E22
+- **Fonts:** Archivo Black / Inter
+- **Mood:** bold, confident, industrial, authoritative
 
 
 ## Business Information
@@ -60,85 +60,103 @@ Professional plumbing services
 ### Gas
 Professional gas services
 
+### Gas Fitting
+Professional gas fitting services
+
+### Hot Water Systems
+Installation and repair of electric and gas hot water systems, heat pumps, and hydro therm heat pumps
+
 ### Water Leaks
 Water leak detection and repair services
 
 ### Hot Water Installations
-Hot water system installation services
+Professional hot water installation services
 
 ### Hot Water Repairs
-Hot water system repair services
+Professional hot water repair services
 
 ### Gas Appliance Repairs
-Gas appliance repair services
+Professional gas appliance repair services
 
 ### Toilet Replacement
-Toilet replacement services
+Professional toilet replacement services
 
 ### Septic Tank Repairs
-Septic tank repair services
+Professional septic tank repair services
 
 ### Renovations
-Plumbing renovation services
+Professional renovation services
 
 ### Water Filters
-Water filter installation and maintenance services
+Professional water filter services
 
 ### Pure Tec Water filters
-Pure Tec water filter services
-
-### Gas Fitting
-Professional gas fitting services
+Professional Pure Tec water filter services
 
 ### Gas Hot Water Installation
-Gas hot water system installation services
+Professional gas hot water installation services
 
 ### Gas Stove Installations
-Gas stove installation services
+Professional gas stove installation services
 
 ### Gas Heater Servicing
-Gas heater servicing and maintenance
+Professional gas heater servicing
 
 ### Gas Cook Top Installations
-Gas cook top installation services
+Professional gas cook top installation services
 
 ### All General Gas Repairs
-General gas repair services
+Professional general gas repair services
 
 ### Gas Leak Detection & Repairs
-Gas leak detection and repair services
-
-### Hot Water Systems
-Hot water system services
+Professional gas leak detection and repair services
 
 ### Electric Hot Water Systems
-Electric hot water system services
+Professional electric hot water system services
 
 ### Instant Gas Hot Water
-Instant gas hot water system services
+Professional instant gas hot water services
 
 ### Heat Pumps
-Heat pump services
+Professional heat pump services
 
 ### Hydro Therm Heat pump
-Hydro Therm heat pump services
+Professional hydro therm heat pump services
 
 ### Water Filter System
-Water filter system installation and maintenance
+Supply and installation of water filter systems that kill 99% of ecoli, giardia and cryptosporidium cysts.
 
 ### Gasfitting
-Professional gasfitting services
-
-### Gas Maintenance Repairs
-Professional gas maintenance repairs
-
-### Appliance Installations
-Professional appliance installations
+Gasfitting maintenance repairs and appliance installations
 
 ## Available Images
 **IMPORTANT:** Use these downloaded images from the original website. Do NOT use placeholder images.
 
-No images downloaded - use placeholder images sparingly
+- `assets/images/b.png`
+- `assets/images/banner-1.png`
+- `assets/images/banner-1_16.png`
+- `assets/images/banner-1_20.png`
+- `assets/images/banner-1_orig.png`
+- `assets/images/bath_orig.png`
+- `assets/images/d22c05bf2ba3acea8019cfe3ccb1378f.png`
+- `assets/images/faucet.png`
+- `assets/images/gas_orig.jpg`
+- `assets/images/gashws_orig.jpg`
+- `assets/images/hws1_orig.png`
+- `assets/images/hws2_orig.png`
+- `assets/images/luke_orig.png`
+- `assets/images/maintenance_orig.png`
+- `assets/images/mixer_orig.jpg`
+- `assets/images/plumbing_orig.jpg`
+- `assets/images/pump_orig.png`
+- `assets/images/shower-rose_orig.png`
+- `assets/images/stove_orig.jpg`
+- `assets/images/stovetop_orig.png`
+- `assets/images/toilet-pipe_orig.png`
+- `assets/images/toilet.png`
+- `assets/images/toilet1_orig.png`
+- `assets/images/water-filtration_orig.png`
+- `assets/images/waterfilter.png`
 
 ## Content Files
 - `content/pages.json` - Scraped page content

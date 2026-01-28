@@ -4,44 +4,43 @@
   "slug": "buchananplumbingandgas",
   "category": "trades",
   "designDirection": {
-    "aesthetic": "Power Service",
-    "displayFont": "Space Grotesk",
-    "bodyFont": "Inter",
+    "aesthetic": "Aussie Tradesman Pro",
+    "displayFont": "Bebas Neue",
+    "bodyFont": "Work Sans",
     "palette": {
-      "primary": "#374151",
-      "accent": "#3b82f6",
-      "surface": "#ffffff",
-      "text": "#1f2937",
-      "textMuted": "#6b7280"
+      "primary": "#1B365D",
+      "accent": "#FF6B35",
+      "surface": "#F8F9FA",
+      "text": "#2C3E50",
+      "textMuted": "#6C757D"
     },
     "effects": [
-      "bold shadows",
-      "offset elements",
-      "micro-animations",
       "geometric shapes",
-      "high contrast"
+      "bold shadows",
+      "grain texture",
+      "decorative lines"
     ]
   },
   "designVariations": [
     {
       "id": "variation-1",
-      "name": "Industrial Authority",
-      "rationale": "This design emphasizes Buchanan Plumbing & Gas's expertise in both residential and commercial work with strong industrial elements. The navy and orange palette conveys trust and energy, perfect for a family business that's been serving the Tweed Valley since 2010.",
+      "name": "Aussie Tradesman Pro",
+      "rationale": "This design captures the rugged, reliable nature of Buchanan Plumbing & Gas with industrial navy tones that reflect their technical expertise and trustworthy family-run heritage. The bold typography and utilitarian aesthetic perfectly suits their comprehensive gas and plumbing services across the rural Tweed Valley region.",
       "palette": {
-        "primary": "#1e3a5f",
-        "accent": "#ff6b35",
-        "surface": "#f8f9fa",
-        "text": "#2c3e50",
-        "textMuted": "#6c757d"
+        "primary": "#1B365D",
+        "accent": "#FF6B35",
+        "surface": "#F8F9FA",
+        "text": "#2C3E50",
+        "textMuted": "#6C757D"
       },
       "fonts": {
         "display": "Bebas Neue",
         "body": "Work Sans"
       },
       "layout": {
-        "hero": "Split layout with bold typography on left, equipment imagery on right with geometric overlay",
-        "sections": "Alternating left-right content blocks with strong geometric dividers",
-        "cards": "Clean cards with subtle shadows and orange accent borders"
+        "hero": "Split layout with large bold text on left, service technician image on right with geometric overlay",
+        "sections": "Alternating left-right content blocks with service icons and bold headings",
+        "cards": "Clean rectangular cards with subtle shadows and orange accent borders"
       },
       "effects": [
         "geometric shapes",
@@ -50,114 +49,114 @@
         "decorative lines"
       ],
       "mood": [
-        "authoritative",
         "industrial",
         "trustworthy",
-        "modern"
+        "professional",
+        "robust"
       ],
       "recommended": true,
-      "recommendationReason": "Best balances the industrial trades aesthetic with family business approachability, while the navy/orange combination conveys both reliability and energy that matches their prompt service promise."
+      "recommendationReason": "Best balances the industrial trades aesthetic with family business warmth, while the navy/orange palette conveys both professionalism and energy that trades customers expect."
     },
     {
       "id": "variation-2",
-      "name": "Utility Pro",
-      "rationale": "Designed to reflect Buchanan's comprehensive service range from septic tanks to gas installations, this variation uses a utility-inspired color scheme and bold typography that commands attention while maintaining professionalism for their diverse clientele.",
+      "name": "Modern Utility",
+      "rationale": "Reflecting Buchanan's commitment to 'modern plumbing solutions,' this sleek charcoal and teal design emphasizes their innovative approach while maintaining the technical credibility essential for gas fitting and commercial services. The contemporary aesthetic appeals to both residential and commercial clients in the growing Murwillumbah area.",
       "palette": {
-        "primary": "#2d4739",
-        "accent": "#f1c40f",
-        "surface": "#ffffff",
-        "text": "#34495e",
-        "textMuted": "#7f8c8d"
+        "primary": "#2C3639",
+        "accent": "#17A2B8",
+        "surface": "#FFFFFF",
+        "text": "#212529",
+        "textMuted": "#6C757D"
       },
       "fonts": {
-        "display": "Archivo Black",
+        "display": "Space Grotesk",
         "body": "DM Sans"
       },
       "layout": {
-        "hero": "Full-width background with centered bold text and service icons arranged in grid below",
-        "sections": "Grid-based layout showcasing services in organized blocks",
-        "cards": "Minimal cards with yellow accent strips and utility-inspired icons"
+        "hero": "Full-width background with centered text overlay and subtle geometric patterns",
+        "sections": "Grid-based layout with equal-height service blocks and clean spacing",
+        "cards": "Minimal flat cards with teal accent lines and hover animations"
       },
       "effects": [
-        "high contrast",
-        "geometric shapes",
         "subtle gradients",
-        "offset elements"
+        "micro-animations",
+        "offset elements",
+        "texture overlays"
       ],
       "mood": [
-        "efficient",
-        "systematic",
-        "professional",
-        "reliable"
+        "modern",
+        "sleek",
+        "technical",
+        "innovative"
       ],
       "recommended": false
     },
     {
       "id": "variation-3",
-      "name": "Coastal Craftsman",
-      "rationale": "Reflecting Buchanan's location in Stokers Siding and service to the coastal Tweed Valley region, this design combines slate and teal colors that echo the local landscape while maintaining the sturdy, dependable feel appropriate for a trades business.",
+      "name": "Country Craftsman",
+      "rationale": "Designed for Buchanan's rural Stokers Siding location and family-operated values, this warm forest green and yellow palette evokes the natural Tweed Valley landscape while maintaining professional credibility. The robust typography reflects their hands-on approach to septic tanks, renovations, and rural property services.",
       "palette": {
-        "primary": "#475569",
-        "accent": "#0d9488",
-        "surface": "#f1f5f9",
-        "text": "#334155",
-        "textMuted": "#64748b"
+        "primary": "#2D4A22",
+        "accent": "#F4D03F",
+        "surface": "#FFF8E1",
+        "text": "#1B5E20",
+        "textMuted": "#558B2F"
       },
       "fonts": {
         "display": "Oswald",
         "body": "Source Sans Pro"
       },
       "layout": {
-        "hero": "Layered design with background texture, diagonal elements, and prominent call-to-action",
-        "sections": "Card-focused layout with services grouped by category in bordered containers",
-        "cards": "Bordered cards with subtle texture backgrounds and teal accent highlights"
+        "hero": "Large background image of local landscape with overlay text and service highlights",
+        "sections": "Card-focused layout with natural spacing and earth-tone service categories",
+        "cards": "Rounded cards with soft shadows and yellow accent highlights"
       },
       "effects": [
+        "organic blobs",
         "texture overlays",
-        "decorative lines",
-        "subtle gradients",
-        "parallax hints"
+        "parallax hints",
+        "decorative lines"
       ],
       "mood": [
-        "coastal",
-        "crafted",
-        "established",
-        "regional"
+        "natural",
+        "reliable",
+        "family-friendly",
+        "grounded"
       ],
       "recommended": false
     },
     {
       "id": "variation-4",
-      "name": "Power Service",
-      "rationale": "This high-energy design reflects Buchanan's promise of prompt service and modern solutions. The charcoal and electric blue combination creates a contemporary feel that appeals to both traditional plumbing needs and modern gas appliance installations.",
+      "name": "Industrial Edge",
+      "rationale": "This bold slate and copper design emphasizes Buchanan's comprehensive commercial services and technical expertise in gas leak detection and appliance repairs. The high-contrast aesthetic projects confidence and capability, perfect for their diverse client base from sporting venues to real estate agents across the region.",
       "palette": {
-        "primary": "#374151",
-        "accent": "#3b82f6",
-        "surface": "#ffffff",
-        "text": "#1f2937",
-        "textMuted": "#6b7280"
+        "primary": "#34495E",
+        "accent": "#E67E22",
+        "surface": "#ECF0F1",
+        "text": "#2C3E50",
+        "textMuted": "#7F8C8D"
       },
       "fonts": {
-        "display": "Space Grotesk",
+        "display": "Archivo Black",
         "body": "Inter"
       },
       "layout": {
-        "hero": "Dynamic angled sections with overlapping elements and bold service highlights",
-        "sections": "Staggered content blocks with alternating backgrounds and dynamic spacing",
-        "cards": "Modern cards with strong shadows and blue accent elements"
+        "hero": "Full-width video background with bold centered messaging and call-to-action buttons",
+        "sections": "Asymmetrical layout with alternating content widths and dynamic spacing",
+        "cards": "Bold rectangular cards with heavy shadows and copper accent elements"
       },
       "effects": [
         "bold shadows",
-        "offset elements",
-        "micro-animations",
         "geometric shapes",
-        "high contrast"
+        "high contrast",
+        "grain texture",
+        "offset elements"
       ],
       "mood": [
-        "dynamic",
-        "contemporary",
-        "energetic",
-        "tech-forward"
+        "bold",
+        "confident",
+        "industrial",
+        "authoritative"
       ],
       "recommended": false
     }
@@ -174,7 +173,7 @@
         "npm run build succeeds without errors",
         "next.config.js configured for static export (output: 'export')"
       ],
-      "passes": true
+      "passes": false
     },
     {
       "id": 2,
@@ -187,7 +186,7 @@
         "Clear call-to-action buttons",
         "Uses images from assets/images/ folder (NOT placeholder images)"
       ],
-      "passes": true
+      "passes": false
     },
     {
       "id": 3,
@@ -199,7 +198,7 @@
         "Consistent styling with homepage",
         "Uses next/image for optimized image loading"
       ],
-      "passes": true
+      "passes": false
     },
     {
       "id": 4,
@@ -211,7 +210,7 @@
         "Company values or mission statement",
         "NO placeholder images - use actual downloaded assets"
       ],
-      "passes": true
+      "passes": false
     },
     {
       "id": 5,
@@ -223,7 +222,7 @@
         "Google Maps embed with business location",
         "Phone, email, address, hours displayed from content/metadata.json"
       ],
-      "passes": true
+      "passes": false
     },
     {
       "id": 6,
@@ -235,7 +234,7 @@
         "Distinctive aesthetic - NOT generic (no Inter, Roboto)",
         "Visual style matches the business vertical"
       ],
-      "passes": true
+      "passes": false
     },
     {
       "id": 7,
@@ -247,7 +246,7 @@
         "Smooth scroll behavior",
         "Respects prefers-reduced-motion"
       ],
-      "passes": true
+      "passes": false
     },
     {
       "id": 8,
@@ -259,7 +258,7 @@
         "FAQ section with 3-5 common questions",
         "Schema validates at schema.org validator"
       ],
-      "passes": true
+      "passes": false
     },
     {
       "id": 9,
@@ -271,7 +270,7 @@
         "Readable text without zooming",
         "Mobile navigation works correctly"
       ],
-      "passes": true
+      "passes": false
     },
     {
       "id": 10,
@@ -283,7 +282,7 @@
         "Lazy loading enabled for below-fold images",
         "Lighthouse Performance score > 90"
       ],
-      "passes": true
+      "passes": false
     },
     {
       "id": 11,
@@ -295,7 +294,7 @@
         "Preview URL accessible and HTTPS working",
         "Loads in under 3 seconds"
       ],
-      "passes": true
+      "passes": false
     }
   ]
 }

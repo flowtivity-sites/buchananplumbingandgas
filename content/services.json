@@ -8,103 +8,95 @@
     "description": "Professional gas services"
   },
   {
+    "name": "Gas Fitting",
+    "description": "Professional gas fitting services"
+  },
+  {
+    "name": "Hot Water Systems",
+    "description": "Installation and repair of electric and gas hot water systems, heat pumps, and hydro therm heat pumps"
+  },
+  {
     "name": "Water Leaks",
     "description": "Water leak detection and repair services"
   },
   {
     "name": "Hot Water Installations",
-    "description": "Hot water system installation services"
+    "description": "Professional hot water installation services"
   },
   {
     "name": "Hot Water Repairs",
-    "description": "Hot water system repair services"
+    "description": "Professional hot water repair services"
   },
   {
     "name": "Gas Appliance Repairs",
-    "description": "Gas appliance repair services"
+    "description": "Professional gas appliance repair services"
   },
   {
     "name": "Toilet Replacement",
-    "description": "Toilet replacement services"
+    "description": "Professional toilet replacement services"
   },
   {
     "name": "Septic Tank Repairs",
-    "description": "Septic tank repair services"
+    "description": "Professional septic tank repair services"
   },
   {
     "name": "Renovations",
-    "description": "Plumbing renovation services"
+    "description": "Professional renovation services"
   },
   {
     "name": "Water Filters",
-    "description": "Water filter installation and maintenance services"
+    "description": "Professional water filter services"
   },
   {
     "name": "Pure Tec Water filters",
-    "description": "Pure Tec water filter services"
-  },
-  {
-    "name": "Gas Fitting",
-    "description": "Professional gas fitting services"
+    "description": "Professional Pure Tec water filter services"
   },
   {
     "name": "Gas Hot Water Installation",
-    "description": "Gas hot water system installation services"
+    "description": "Professional gas hot water installation services"
   },
   {
     "name": "Gas Stove Installations",
-    "description": "Gas stove installation services"
+    "description": "Professional gas stove installation services"
   },
   {
     "name": "Gas Heater Servicing",
-    "description": "Gas heater servicing and maintenance"
+    "description": "Professional gas heater servicing"
   },
   {
     "name": "Gas Cook Top Installations",
-    "description": "Gas cook top installation services"
+    "description": "Professional gas cook top installation services"
   },
   {
     "name": "All General Gas Repairs",
-    "description": "General gas repair services"
+    "description": "Professional general gas repair services"
   },
   {
     "name": "Gas Leak Detection & Repairs",
-    "description": "Gas leak detection and repair services"
-  },
-  {
-    "name": "Hot Water Systems",
-    "description": "Hot water system services"
+    "description": "Professional gas leak detection and repair services"
   },
   {
     "name": "Electric Hot Water Systems",
-    "description": "Electric hot water system services"
+    "description": "Professional electric hot water system services"
   },
   {
     "name": "Instant Gas Hot Water",
-    "description": "Instant gas hot water system services"
+    "description": "Professional instant gas hot water services"
   },
   {
     "name": "Heat Pumps",
-    "description": "Heat pump services"
+    "description": "Professional heat pump services"
   },
   {
     "name": "Hydro Therm Heat pump",
-    "description": "Hydro Therm heat pump services"
+    "description": "Professional hydro therm heat pump services"
   },
   {
     "name": "Water Filter System",
-    "description": "Water filter system installation and maintenance"
+    "description": "Supply and installation of water filter systems that kill 99% of ecoli, giardia and cryptosporidium cysts."
   },
   {
     "name": "Gasfitting",
-    "description": "Professional gasfitting services"
-  },
-  {
-    "name": "Gas Maintenance Repairs",
-    "description": "Professional gas maintenance repairs"
-  },
-  {
-    "name": "Appliance Installations",
-    "description": "Professional appliance installations"
+    "description": "Gasfitting maintenance repairs and appliance installations"
   }
 ]

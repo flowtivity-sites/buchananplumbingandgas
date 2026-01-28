@@ -33,11 +33,11 @@ const bodyFont = Work_Sans({
 ### Colors (in globals.css)
 ```css
 :root {
-  --color-primary: #1e3a5f;
-  --color-accent: #ff6b35;
-  --color-surface: #f8f9fa;
-  --color-text: #2c3e50;
-  --color-text-muted: #6c757d;
+  --color-primary: #1B365D;
+  --color-accent: #FF6B35;
+  --color-surface: #F8F9FA;
+  --color-text: #2C3E50;
+  --color-text-muted: #6C757D;
 }
 ```
 
@@ -50,7 +50,31 @@ const bodyFont = Work_Sans({
 ## Available Images
 **CRITICAL: Use these images from assets/images/ - do NOT use placeholder images!**
 
-No images available
+- b.png
+- banner-1.png
+- banner-1_16.png
+- banner-1_20.png
+- banner-1_orig.png
+- bath_orig.png
+- d22c05bf2ba3acea8019cfe3ccb1378f.png
+- faucet.png
+- gas_orig.jpg
+- gashws_orig.jpg
+- hws1_orig.png
+- hws2_orig.png
+- luke_orig.png
+- maintenance_orig.png
+- mixer_orig.jpg
+- plumbing_orig.jpg
+- pump_orig.png
+- shower-rose_orig.png
+- stove_orig.jpg
+- stovetop_orig.png
+- toilet-pipe_orig.png
+- toilet.png
+- toilet1_orig.png
+- water-filtration_orig.png
+- waterfilter.png
 
 ### How to use images:
 ```tsx
